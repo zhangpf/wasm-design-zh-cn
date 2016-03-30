@@ -2,7 +2,7 @@
 
 > 本仓库包含了描述有关WebAssembly设计及其高层概述的文档。
 
-> 本仓库的文档和讨论是讨论组[WebAssembly社区组](https://www.w3.org/community/webassembly/)内容的一部分。
+> 本仓库的文档和讨论是[WebAssembly社区组](https://www.w3.org/community/webassembly/)内容的一部分。
 
 ## 概述
 
@@ -31,11 +31,11 @@ WebAssembly或者wasm，是一种新型可移植，具有占用存储小，加�
 
 具有实际意义的WebAssembly规范是在[spec仓库](https://github.com/WebAssembly/spec/)中开展的。但目前为止，高层设计讨论将在继续在本设计仓库中，通过issue和pull request的方式进行，从而使得规范的制定工作更加聚焦。
 
-我们筹划wasm提供如下的功能：
+我们计划wasm分步提供如下的功能：
 
  1. 在[最小可行性产品](MVP.md)；
- 2. [最小可行性产品之后](PostMVP.md)；
- 3. 在[未来版本](FutureFeatures.md)中。
+ 2. 接着[最小可行性产品之后](PostMVP.md)；
+ 3. 在[远期版本](FutureFeatures.md)中。
 
 加入我们:
 
