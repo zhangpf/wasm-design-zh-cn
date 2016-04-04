@@ -10,7 +10,7 @@ WebAssembly或者wasm，是一种新型可移植，具有占用存储小，加�
 
 当前，WebAssembly是一项由[W3C社区组](https://www.w3.org/community/webassembly/)主导的开放标准，设计目标包括能被所有主流浏览器支持的格式等。*该仓库的内容处于不断变化：所有的内容仍然处于讨论之中*
 
-- **WebAssembly是执行高效的**: wasm的[抽象语法树](AstSemantics.md)被设计为编码成占用存储小，加载时间短的[二进制格式](BinaryEncoding.md)。在设计目标上，通过利用现有平台普遍具有的[通用硬件能力](Portability.md#assumptions-for-efficient-execution)，WebAssembly可以达到接近原生二进制代码的执行速度。
+- **WebAssembly是执行高效的**: wasm的[抽象语法树](AstSemantics.md)被设计为编码成占用存储小，加载时间短的[二进制格式](BinaryEncoding.md)。在设计目标上，通过利用现有平台普遍具有的[通用硬件能力](Portability.md#高效执行的环境假设)，WebAssembly可以达到接近原生二进制代码的执行速度。
 
 - **WebAssembly是安全的**: WebAssembly描述了一个内存安全，沙箱式的[执行环境](AstSemantics.md#linear-memory)，该执行环境甚至可以利用现有的JavaScript虚拟机加以实现。当其内嵌于[Web](Web.md)环境时，WebAssembly将强制与浏览器同源并执行相同的权限安全策略以保证安全。
 
