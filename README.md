@@ -16,7 +16,7 @@ WebAssembly或者wasm，是一种新型可移植，具有占用存储小，加�
 
 - **WebAssembly是开放和可调试的**: WebAssembly设计了美化的[文本格式](TextFormat.md)用于调试、测试、试验、优化、学习、传授以及直接使用该格式进行编程。该文本格式同时也在[查看wasm模块的代码](FAQ.md#will-webassembly-support-view-source-on-the-web)的功能中被使用。
 
-- **WebAssembly是开放web平台体系中的一部分**: WebAssembly在设计上继续保持了无需更新、功能测试和向后兼容等[web应用的本质属性](Web.md)。WebAssembly模块可以与Javascript上下文互调用，并且与JavaScript使用相同的Web API来访问浏览器所有支持的功能。除此之外，WebAssembly同时支持[非web](NonWeb.md)的运行环境。
+- **WebAssembly是开放web平台体系中的一部分**: WebAssembly在设计上继续保持了无需更新、特性测试和向后兼容等[web应用的本质属性](Web.md)。WebAssembly模块可以与Javascript上下文互调用，并且与JavaScript使用相同的Web API来访问浏览器所有支持的功能。除此之外，WebAssembly同时支持[非web](NonWeb.md)的运行环境。
 
 ## 更多信息
 
@@ -33,9 +33,9 @@ WebAssembly或者wasm，是一种新型可移植，具有占用存储小，加�
 
 我们计划wasm分步提供如下的功能：
 
- 1. 在[最小可行性产品](MVP.md)；
- 2. 接着[最小可行性产品之后](PostMVP.md)；
- 3. 在[远期版本](FutureFeatures.md)中。
+ 1. [MVP](MVP.md)；
+ 2. [MVP之后版本（PostMVP）](PostMVP.md)；
+ 3. [远期版本](FutureFeatures.md)中。
 
 加入我们:
 
