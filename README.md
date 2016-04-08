@@ -43,4 +43,4 @@ WebAssembly或者wasm，是一种新型可移植，具有占用存储小，加�
  * IRC频道: `irc://irc.w3.org:6667/#webassembly`
  * 通过[如何贡献](Contributing.md)页面!
 
-如果您想贡献一份力，请查看[合乎道德和专业产品的代码](CodeOfConduct.md)页面。
+如果您想贡献一份力，请查看[合乎道德和专业行为的代码](CodeOfConduct.md)页面。
